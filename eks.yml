@@ -6,7 +6,7 @@ metadata:
   region: us-east-1
 
 managedNodeGroups:
-  - name: spot-ng
+  - name: spot-ng-01
     instanceTypes:
       - t3.micro
     spot: false
