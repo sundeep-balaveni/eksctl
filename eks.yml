@@ -8,7 +8,8 @@ metadata:
 managedNodeGroups:
   - name: spot-ng
     instanceTypes:
-       -t3.medium
+      
+      - t3.medium
   
     spot: true
     desiredCapacity: 1
