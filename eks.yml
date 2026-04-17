@@ -12,4 +12,4 @@ managedNodeGroups:
     spot: false
     minSize: 1
     maxSize: 2
-    desiredCapacity: 1
+    desiredCapacity: 2
