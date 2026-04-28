@@ -9,7 +9,6 @@ managedNodeGroups:
   - name: spot-ng-01
     instanceTypes:
       - t3.micro
-    amiFamily: AmazonLinux2
     spot: true
     minSize: 1
     maxSize: 2
