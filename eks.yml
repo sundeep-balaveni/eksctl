@@ -8,7 +8,7 @@ metadata:
 managedNodeGroups:
   - name: spot-ng-01
     instanceTypes:
-      - t3.micro
+      - t3.medium
     spot: false
     minSize: 1
     maxSize: 2
